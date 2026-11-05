@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirac's portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header class="header">
+     <span>mirac</span>
+     <nav>
+      <a href="#anasayfa">Anasayfa</a>
+      <a href="#hakkimda">Hakkımda</a>
+      <a href="#portfolyo">Portfolyo</a>
+     </nav>
+    </header>
+    
+
+    <background>
+    <div class="background"></div>
+
+   <main class="hero" id="anasayfa">
+  <section class="intro">
+
+    <h1>
+  <span class="buyuk-baslik">Web Tasarım</span><br>
+  <span class="kucuk-baslik">ve Kodlama</span>
+   </h1>
+
+    <p class="tagline">~ öğrenci</p>
+
+    <p class="description">
+      HTML, CSS ve temel JavaScript alanlarında kendimi geliştiriyorum.
+   İstanbul Üniversitesi AUZEF Web Tasarımı ve Kodlama 2. sınıf öğrencisiyim. Öğrenmeye meraklı, araştırmayı seven ve yeni şeyler denemekten
+  keyif alan biriyim. Farklı bakış açılarını keşfetmeyi önemsiyorum ve sürekli olarak kendimi geliştirmeye odaklanıyorum.
+    </p>
+
+    <div class="skills">
+      <span>JavaScript</span>
+      <span>CSS</span>
+      <span>HTML</span> 
+      <span>Photoshop</span>
+      <span>Illustrator</span>
+      <span>Wordpress</span>
+    </div>
+
+  </section>
+
+  <div class="portrait">
+    <img src="mrc.png" alt="Portre fotoğrafı">
+     <p>Mirac Kadıoğlu</p>
+  </div>
+
+</main>
+
+<section class="about-hero" id="hakkimda">
+  <div class="about-hero-text">
+    <p class="about-label">HAKKIMDA</p>
+
+    <h2 class="about-name">Mirac<br>Kadıoğlu</h2>
+
+   <div class="about-info">
+  <div class="info-row">
+    <p><span><strong>Ad Soyad:</strong> Mirac Kadıoğlu</span></p>
+    <p><span><strong>Konum:</strong> Sakarya</span></p>
+  </div>
+
+  <div class="info-row">
+    <p><span><strong>Üniversite:</strong> İstanbul Üniversitesi AUZEF</span></p>
+    <p><span><strong>Bölüm:</strong> Web Tasarımı ve Kodlama, 2. sınıf</span></p>
+  </div>
+
+  <div class="info-row">
+    <p><span><strong>E-posta:</strong> mirackdgl54@gmail.com</span></p>
+    <p><span><strong>Telefon:</strong> 0554 004 6436</span></p>
+  </div>
+
+  <div class="info-row">
+    <p><span><strong>Doğum tarihi:</strong> 18.10.2006</span></p>
+    <p><span><strong>Yaş:</strong> 20</span></p>
+  </div>
+</div>
+
+    <p class="about-quote">
+      “Bu portfolyo, kendimi geliştirme yolculuğumdan bir kesit.”
+    </p>
+
+  </div>
+
+  <div class="about-photo-wrap">
+  <img class="about-hero-photo" src="ben.png" alt="Mirac Kadıoğlu">
+
+  <svg class="photo-ring" viewBox="0 0 100 100" aria-hidden="true">
+    <circle cx="50" cy="50" r="48"></circle>
+  </svg>
+</div>
+
+
+
+  <div class="about-cards">
+
+    <a href="#" class="about-card" data-image="mimi mockup.png">  <br>
+  <strong>ALIŞVERİŞ SİTESİ 1</strong>
+  <span>↗</span>
+    </a>
+
+    <a href="#" class="about-card" data-image="Bilgisayar-mokup.png">  <br>
+  <strong>MENÜ</strong>
+  <span>↗</span>
+    </a>
+
+     <a href="#" class="about-card" data-image="---.png"> <br>
+  <strong>ALIŞVERİŞ SİTESİ 2</strong>
+  <span>↗</span>
+    </a>
+  </div>
+</section>
+
+
+
+<div class="image-viewer" id="imageViewer">
+  <button id="imageClose" aria-label="Kapat">×</button>
+  <img id="viewerImage" src="" alt="Proje görseli">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="portfolio-section" id="portfolyo">
+  <div class="portfolio-intro">
+    <p class="portfolio-label">PORTFOLYO</p>
+
+    <div class="portfolio-title-wrap">
+  <h2>ÇALIŞMALARIM</h2>
+
+  <svg class="portfolio-title-border" viewBox="0 0 1000 200" preserveAspectRatio="none" aria-hidden="true">
+    <rect x="10" y="10" width="980" height="180" rx="45" pathLength="1000"></rect>
+  </svg>
+</div>
+
+    <p>
+      Kendi projelerimi ve staj sürecinde yaptığım çalışmaları burada paylaşıyorum.
+      Kutulara tıklayarak ayrıntıları görebilirsin.
+    </p>
+  </div>
+
+  <div class="portfolio-categories">
+  <button class="portfolio-category" type="button" data-open="projects"  data-title="Kendi Projelerim">
+    <strong>Projeler</strong>
+    <p>Kendi projelerimi buradan inceleyebilirsin.</p>
+  </button>
+
+  <button class="portfolio-category" type="button" data-open="internship" data-title="Staj Çalışmalarım">
+    <strong>Staj Çalışmaları</strong>
+    <p>Staj çalışmalarımı buradan inceleyebilirsin.</p>
+  </button>
+</div>
+</section>
+
+
+
+      <div class="portfolio-backdrop" id="portfolioBackdrop" aria-hidden="true">
+  <div class="portfolio-modal" role="dialog" aria-modal="true" aria-labelledby="portfolioModalTitle">
+    <button class="portfolio-close" id="portfolioClose" type="button" aria-label="Kapat">×</button>
+
+    <h3 id="portfolioModalTitle"></h3>
+
+    <div class="portfolio-details" id="projects" hidden>
+      <a class="portfolio-item" href="https://mirackdgl54-hub.github.io/AlisverisSitesi/index.html" target="_blank" rel="noopener">
+        <strong>Alışveriş Sitesi 1</strong>
+        <span>Çanta butiği için web tasarımı.</span>
+        <span>Siteyi aç ↗</span>
+      </a>
+
+      <a class="portfolio-item" href="https://mirackdgl54-hub.github.io/CafeMenu/" target="_blank" rel="noopener">
+        <strong>Kafe menüsü</strong>
+        <span>Kafe menüsü için web tasarımı.</span>
+        <span>Siteyi aç ↗</span>
+      </a>
+
+      <a class="portfolio-item" href="PROJE-3-LİNKİNİ-YAZ" target="_blank" rel="noopener">
+        <strong>Alışveriş Sitesi 2</strong>
+        <span>Online alışveriş sitesi için web tasarımı.</span>
+        <span>Siteyi aç ↗</span>
+      </a>
+    </div>
+
+
+
+
+
+    <div class="portfolio-details" id="internship" hidden>
+      <a class="portfolio-item" href="https://www.webtasarimsakarya.tr/blog/" target="_blank" rel="noopener">
+        <strong>Blog sayfaları</strong>
+        <span>Web tasarımı Sakarya için blog sayfa tasarımı.</span>
+        <span>Siteyi aç ↗</span>
+      </a>
+     
+      <a class="portfolio-item" href="https://www.sakaryawebtasarimci.tr/calismalar/" target="_blank" rel="noopener">
+        <strong>Çalışmalar sayfa tasarımı</strong>
+        <span>Web tasarımı çalışmalarımızı göstermek için yaptığımız projeler.</span>
+        <span>Siteyi aç ↗</span>
+      </a>
+
+      <a class="portfolio-item" href="https://www.sakaryaiselbiseleri.tr/yazilar/" target="_blank" rel="noopener">
+        <strong>Blog sayfaları</strong>
+        <span>Sakarya iş elbiseleri için blog sayfa tasarımı.</span>
+        <span>Siteyi aç ↗</span>
+      </a>
+
+      <a class="portfolio-item" href="https://www.adapazarimatbaa.tr/blog/" target="_blank" rel="noopener">
+        <strong>Blog sayfaları</strong>
+        <span>Adapazarı matbaa için blog sayfa tasarımı.</span>
+        <span>Siteyi aç ↗</span>
+      </a>
+
+      <a class="portfolio-item" href="https://www.adareklam.tr/calismalarimiz/" target="_blank" rel="noopener">
+        <strong>Blog sayfaları</strong>
+        <span>Adareklam için blog sayfa tasarımı.</span>
+        <span>Siteyi aç ↗</span>
+      </a>
+
+      <a class="portfolio-item" href="https://www.mchttasarim.com.tr/yazilar/" target="_blank" rel="noopener">
+        <strong>Blog sayfaları</strong>
+        <span>MchTTasarım için blog sayfa tasarımı.</span>
+        <span>Siteyi aç ↗</span>
+      </a>
+
+      <a class="portfolio-item" href="https://www.davetiyeler.tr/blog/" target="_blank" rel="noopener">
+        <strong>Blog sayfaları</strong>
+        <span>Davetiyeler için blog sayfa tasarımı.</span>
+        <span>Siteyi aç ↗</span>
+      </a>
+
+      <a class="portfolio-item" href="https://www.sakaryareklamajans.com/blog/" target="_blank" rel="noopener">
+        <strong>Blog sayfaları</strong>
+        <span>Sakarya reklam ajansı için blog sayfa tasarımı.</span>
+        <span>Siteyi aç ↗</span>
+      </a>
+
+      <a class="portfolio-item" href="https://www.sakaryareklamajansi.tr/blog-standard/" target="_blank" rel="noopener">
+        <strong>Blog sayfaları</strong>
+        <span>Sakarya reklam ajansı için blog sayfa tasarımı.</span>
+        <span>Siteyi aç ↗</span>
+      </a>
+
+      <a class="portfolio-item" href="https://www.sakaryareklamci.tr/yazilar/" target="_blank" rel="noopener">
+        <strong>Blog sayfaları</strong>
+        <span>Sakarya reklamcı için blog sayfa tasarımı.</span>
+        <span>Siteyi aç ↗</span>
+      </a>
+
+      <a class="portfolio-item" href="https://www.sakaryawebtasarimci.tr/blog/" target="_blank" rel="noopener">
+        <strong>Blog sayfaları</strong>
+        <span>Sakarya web tasarımcısı için blog sayfa tasarımı.</span>
+        <span>Siteyi aç ↗</span>
+      </a>
+     
+
+    </div>
+  </div>
+</div>
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
